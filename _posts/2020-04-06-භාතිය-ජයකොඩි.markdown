@@ -5,7 +5,7 @@ date: 2020-04-06 13:32:20 +0300
 description: භාතිය කොහොමද ඉතින් මේ දවස්වල වැඩකටයුතු එහෙම?
 img: 2020-04-06-භාතිය-ජයකොඩි/cover.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Music, BnS]
+tags: [Music, BnS,භාතිය ජයකොඩි]
 ---
 ### භාතිය කොහොමද ඉතින් මේ දවස්වල වැඩකටයුතු එහෙම?
 ⁣
