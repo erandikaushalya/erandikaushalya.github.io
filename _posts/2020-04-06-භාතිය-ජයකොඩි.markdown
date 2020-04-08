@@ -3,7 +3,7 @@ layout: post
 title: භාතිය ජයකොඩි
 date: 2020-04-06 13:32:20 +0300
 description: භාතිය කොහොමද ඉතින් මේ දවස්වල වැඩකටයුතු එහෙම?
-img: 2020-04-06-භාතිය-ජයකොඩි/cover.jpg # Add image post (optional)
+img: 2020-04-06/cover.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Music, BnS,භාතිය ජයකොඩි]
 ---
@@ -41,10 +41,10 @@ tags: [Music, BnS,භාතිය ජයකොඩි]
 
 මොහමයි. මේ අවුරුද්දේ මේ ඡන්ද වැඩකටයුතු නිසා සහ ලෙඩ රෝග ආදිය නිසා කොහොමත් ඉතින් ප්‍රසංග අඩු  වෙන්න පුළුවන්. ඒත් අප්‍රේල්වලින් පස්සේ ලොකු ගැටලුවක් වෙන එකකුත් නෑ කියලා හිතනවා.
 
-![Bns]({{site.baseurl}}/assets/img/2020-04-06-භාතිය-ජයකොඩි/bns1.jpg) 
+![Bns]({{site.baseurl}}/assets/img/2020-04-06/bns1.jpg) 
 
-![Bns]({{site.baseurl}}/assets/img/2020-04-06-භාතිය-ජයකොඩි/bns2.jpg)
+![Bns]({{site.baseurl}}/assets/img/2020-04-06/bns2.jpg)
 
-![Bns]({{site.baseurl}}/assets/img/2020-04-06-භාතිය-ජයකොඩි/bns3.jpg)
+![Bns]({{site.baseurl}}/assets/img/2020-04-06/bns3.jpg)
 
-![Bns]({{site.baseurl}}/assets/img/2020-04-06-භාතිය-ජයකොඩි/bns4.jpg)
+![Bns]({{site.baseurl}}/assets/img/2020-04-06/bns4.jpg)
