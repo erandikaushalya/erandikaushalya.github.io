@@ -13,11 +13,8 @@ author-img: erandi.jpg # add your photo
 about-author: >
   I'm a creative writer. Always like to learn something. You can read all that is interesting in my words. 
   Read my articles. You can come up with your any idea & It's the result of my hard work.
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github:  # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-facebook: erandi.kaushalyaii
+social-email: kaushalyaerandi773@gmail.com
 
 # Build Settings
 markdown: kramdown
