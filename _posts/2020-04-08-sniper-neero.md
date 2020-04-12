@@ -1,11 +1,11 @@
 ---
-title: SNIPER NEERO ♥
+title: SNIPER NERO
 layout: post
 date: '2020-04-08 16:02:20'
 description: 1945 ජුනි 19 වැනිදා බුරුමයට සැබැවින්ම අනර්ඝ මුළු රටටම වගේම ලෝකයටම වටිනා
   සුන්දර ත්‍යාගයක් ලැබුණි. සූ.. එහෙමත් නැත්නම් අවුන් සාන් සූ කී.
-img: null
-fig-caption: null
+img: 2020-04-08/7d361e327e6aeab435bc379086ed88ee.png
+fig-caption: SNIPER NERO
 tags:
 - Asia
 ---
