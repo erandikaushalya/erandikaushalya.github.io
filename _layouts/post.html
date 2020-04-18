@@ -20,7 +20,7 @@ layout: main
                 <h1 class="page-title">{{page.title}}</h1>
                 <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             </header>
-            <div style="text-align: justify" onmousedown='return false;' onselectstart='return false;'> {{content | markdownify}} </div>
+            <div class="unselectable" style="text-align: justify"> {{content | markdownify}} </div>
             <div class="page-footer">
                 <div class="page-share">
                     <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}"
