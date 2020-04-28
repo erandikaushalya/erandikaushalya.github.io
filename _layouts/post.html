@@ -21,6 +21,12 @@ layout: main
                 <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
             </header>
             <div class="unselectable" style="text-align: justify"> {{content | markdownify}} </div>
+            {% if page.video %}
+            <video width="400" controls>
+                <source src={{ "/assets/img/" | prepend: site.baseurl | append : page.video}} type="video/mp4;codecs="avc1.42E01E, mp4a.40.2">
+            </video>
+
+            {% endif %}
             <div class="page-footer">
                 <div class="page-share">
                     <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}"
