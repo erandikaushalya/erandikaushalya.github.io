@@ -1,0 +1,27 @@
+.advertisement-wrap {
+    position: fixed;
+    right: 10px;
+    top: 0;
+    height: 100%;
+}
+
+.advertisement-wrap .add {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .advertisement-wrap {
+        position: relative;
+        height: unset;
+        margin:0 auto;
+    }
+
+    .advertisement-wrap .add {
+        height: unset;
+        display: block;
+        flex-direction: initial;
+    }
+}
