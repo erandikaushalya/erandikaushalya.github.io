@@ -9,35 +9,20 @@ layout: page
 
 <div id="post-list">
     {% for post in paginator.posts %}
-    <div class="post-preview">
-        <h1>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h1>
+    <article class="post-cust">
+        {% if post.img %}
+        <a class="post-thumbnail" style="background-image: url({{"/assets/img/" | prepend: site.baseurl | append :
+        post.img}})" href="{{post.url | prepend: site.baseurl}}"></a>
+        {% else %}
+        {% endif %}
         <div class="post-content">
-            <p>
-                {% assign _content = post.content %}
-                {% include no-linenos.html %}
-                {{ _content | markdownify | strip_html | truncate: 200 }}
-            </p>
+            <h2 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
+            <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
+            <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
+            <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
         </div>
-
-        <div class="post-meta text-muted">
-            <!-- posted date -->
-            <i class="far fa-clock fa-fw"></i>
-            <span class="timeago" data-toggle="tooltip" data-placement="bottom"
-                  title="{{ post.date | date: site.data.date_format.tooltip }}">
-      {{ post.date | date: site.data.date_format.post }}
-      <i class="unloaded">{{ post.date | date_to_xmlschema }}</i>
-      </span>
-            <!-- page views -->
-            {% if site.google_analytics.pv.enabled %}
-            <i class="far fa-eye fa-fw"></i>
-            <span id="pv_{{-post.title-}}" class="pageviews">
-        <i class="fas fa-spinner fa-spin fa-fw"></i>
-      </span>
-            {% endif %}
-        </div>
-    </div> <!-- .post-review -->
+    </article>
+    <!-- .post-review -->
     {% endfor %}
 </div> <!-- #post-list -->
 
